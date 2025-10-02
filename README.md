@@ -31,6 +31,8 @@ Rodando a aplicação manualmente:
 bash
 Copiar código
 java -jar target/app.jar
+
+
 🚀 2. Executando via Docker Hub
 A imagem já está publicada no Docker Hub:
 👉 rafaooo/checkac
@@ -42,6 +44,7 @@ docker run -p 8080:8080 rafaooo/checkac
 -p 8080:8080 → expõe a porta 8080 da aplicação localmente
 
 rafaooo/checkac → nome da imagem publicada no Docker Hub
+
 
 📦 3. Executando com Docker Compose
 Crie um arquivo docker-compose.yml com o seguinte conteúdo:
@@ -61,12 +64,14 @@ Copiar código
 docker-compose up
 Isso irá baixar a imagem do Docker Hub (se ainda não tiver) e iniciar a aplicação.
 
+
 📚 4. Acessando o Swagger
 Após iniciar a aplicação (via Maven, Docker ou Docker Compose), acesse no navegador:
 
 👉 http://localhost:8080/swagger-ui/index.html
 
 (alternativamente, pode estar disponível em http://localhost:8080/swagger-ui.html, dependendo da configuração)
+
 
 🧪 5. Testando a API
 Você pode usar:
@@ -87,6 +92,8 @@ Depois acesse:
 bash
 Copiar código
 http://localhost:8080/swagger-ui/index.html
+
+
 📤 6. Publicando a imagem no Docker Hub
 O projeto está configurado para usar o Jib (plugin Maven oficial do Google).
 Isso permite gerar e publicar imagens Docker sem precisar de Dockerfile.
