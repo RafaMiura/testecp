@@ -34,15 +34,15 @@ java -jar target/app.jar
 
 🚀 2. Executando via Docker Hub
 A imagem já está publicada no Docker Hub:
-👉 rafaooo/checkac
+👉 rafaooo/testecp
 
 Comando para rodar:
 bash
 Copiar código
-docker run -p 8080:8080 rafaooo/checkac
+docker run -p 8080:8080 rafaooo/testecp
 -p 8080:8080 → expõe a porta 8080 da aplicação localmente
 
-rafaooo/checkac → nome da imagem publicada no Docker Hub
+rafaooo/testecp → nome da imagem publicada no Docker Hub
 
 
 📦 3. Executando com Docker Compose
@@ -54,7 +54,7 @@ version: '3.8'
 
 services:
   app:
-    image: rafaooo/checkac
+    image: rafaooo/testecp
     ports:
       - "8080:8080"
 Para subir a aplicação:
