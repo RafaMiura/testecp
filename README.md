@@ -57,6 +57,7 @@ services:
     image: rafaooo/testecp
     ports:
       - "8080:8080"
+
 Para subir a aplicação:
 bash
 Copiar código
@@ -98,10 +99,14 @@ O projeto está configurado para usar o Jib (plugin Maven oficial do Google).
 Isso permite gerar e publicar imagens Docker sem precisar de Dockerfile.
 
 Gerando a imagem localmente:
+
 bash
 Copiar código
 mvn compile jib:dockerBuild -Dimage=rafaooo/checkac
+
+
 Publicando a imagem no Docker Hub:
+
 bash
 Copiar código
 mvn compile jib:build -Dimage=rafaooo/checkac
