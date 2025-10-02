@@ -1,4 +1,4 @@
-A API Java possui como finalidade exibir o comportamento de um sistema de pedidos e pagamentos.
+A API Java tem como objetivo simular o funcionamento de um sistema de pedidos e pagamentos, disponibilizando endpoints que permitem o gerenciamento dessas operações.
 
 ---
 
