@@ -1,5 +1,4 @@
-Aplicação Java Spring Boot para gerenciamento e consulta de APIs.  
-Este projeto pode ser executado via **Maven**, **Docker Hub** ou **Docker Compose**.
+A API Java possui como finalidade exibir o comportamento de um sistema de pedidos e pagamentos.
 
 ---
 
