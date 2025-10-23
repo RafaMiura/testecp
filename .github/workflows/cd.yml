@@ -21,8 +21,8 @@ jobs:
                     password: ${{ secrets.DOCKER_TOKEN }}
                     
             -   name: Build da imagem Docker 
-                run: docker build -t rafaooo/testecp:0.1.1 .
+                run: docker build -t rafaooo/testecp:latest .
 
             -   name: Push da imagem Docker para o Docker Hub    
-                run: docker push rafaooo/testecp:0.1.1
+                run: docker push rafaooo/testecp:latest
               
