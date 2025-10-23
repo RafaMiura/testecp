@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.github.rafamiura.cp</groupId>
 	<artifactId>com.github.rafamiura.cp</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>com.github.rafamiura.cp</name>
 	<description>cp</description>
 	<url/>
