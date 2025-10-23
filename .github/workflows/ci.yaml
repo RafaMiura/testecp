@@ -1,0 +1,23 @@
+name: Continuous Integration
+
+on: 
+  push:
+    branches:
+      - develop
+      - feature
+      - hotfix
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Execução de testes unitários 
+        run: mvn test   
+
+      - name: Empacotamento da Aplicacao
+        run: mvn clean package
+      
